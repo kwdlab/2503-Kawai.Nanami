@@ -1,20 +1,20 @@
-* Overview
+# Overview
 卒業研究で作成したプログラムの概要を1～3行で書く。
 
-* Description
+# Description
 卒業研究で作成したプログラムの詳細を書く。
 
-* Requirements
+# Requirements
 プログラムの動作環境を書く。
 
-* Install/Usage
+# Install/Usage
 プログラムのインストール法や使い方を書く。
 
-* Author
+# Author
 自分の名前を書く。
 
-* References
+# References
 プログラム作成に参考にした書籍、論文を書く。
 
-* License
+# License
 掲載しているプログラムのライセンスを書く。
