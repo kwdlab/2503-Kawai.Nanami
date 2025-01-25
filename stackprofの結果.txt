@@ -1,0 +1,118 @@
+stackprofの結果3回分
+
+==================================
+  Mode: wall(1000)
+  Samples: 5 (50.00% miss rate)
+  GC: 0 (0.00%)
+==================================
+     TOTAL    (pct)     SAMPLES    (pct)     FRAME
+         2  (40.0%)           2  (40.0%)     OpenSSL::KDF.pbkdf2_hmac
+         2  (40.0%)           1  (20.0%)     Kernel.require_relative
+         2  (40.0%)           1  (20.0%)     Bootsnap::CompileCache::Native.fetch
+         1  (20.0%)           1  (20.0%)     RubyVM::InstructionSequence.load_from_binary
+         2  (40.0%)           0   (0.0%)     OpenSSL::PKCS5.pbkdf2_hmac
+         2  (40.0%)           0   (0.0%)     ActiveSupport::KeyGenerator#generate_key
+         2  (40.0%)           0   (0.0%)     ActiveSupport::CachingKeyGenerator#generate_key
+         2  (40.0%)           0   (0.0%)     ActionDispatch::Cookies::EncryptedKeyRotatingCookieJar#initialize
+         2  (40.0%)           0   (0.0%)     Class#new
+         2  (40.0%)           0   (0.0%)     ActionDispatch::Cookies::ChainedCookieJars#encrypted
+         2  (40.0%)           0   (0.0%)     ActionDispatch::Cookies::ChainedCookieJars#signed_or_encrypted
+         2  (40.0%)           0   (0.0%)     ActionDispatch::Session::CookieStore#cookie_jar
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Session::CookieStore#get_cookie
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Session::CookieStore#unpacked_cookie_data
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Session::StaleSessionCheck#stale_session_check!
+         5 (100.0%)           0   (0.0%)     Hash#fetch
+         5 (100.0%)           0   (0.0%)     Rack::Request::Env#fetch_header
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Session::CookieStore#extract_session_id
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Request::Session::Options#id
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Request::Session#id
+         5 (100.0%)           0   (0.0%)     Rack::Session::Abstract::Persisted#current_session_id
+         5 (100.0%)           0   (0.0%)     Rack::Session::Abstract::Persisted#session_exists?
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Request::Session#exists?
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Request::Session#load_for_read!
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Request::Session#[]
+         5 (100.0%)           0   (0.0%)     ActionController::RequestForgeryProtection::SessionStore#fetch
+         5 (100.0%)           0   (0.0%)     ActionController::RequestForgeryProtection#real_csrf_token
+         5 (100.0%)           0   (0.0%)     ActionController::RequestForgeryProtection#csrf_token_hmac
+         5 (100.0%)           0   (0.0%)     ActionController::RequestForgeryProtection#global_csrf_token
+         5 (100.0%)           0   (0.0%)     ActionController::RequestForgeryProtection#masked_authenticity_token
+
+
+
+
+==================================
+  Mode: wall(1000)
+  Samples: 5 (50.00% miss rate)
+  GC: 0 (0.00%)
+==================================
+     TOTAL    (pct)     SAMPLES    (pct)     FRAME
+         1  (20.0%)           1  (20.0%)     OpenSSL::KDF.pbkdf2_hmac
+         1  (20.0%)           1  (20.0%)     ActiveSupport::Messages::Rotator#build_rotation
+         1  (20.0%)           1  (20.0%)     Thread::Queue#pop
+         1  (20.0%)           1  (20.0%)     Thread::Queue#push
+         1  (20.0%)           1  (20.0%)     OpenSSL::HMAC#initialize
+         1  (20.0%)           0   (0.0%)     OpenSSL::PKCS5.pbkdf2_hmac
+         1  (20.0%)           0   (0.0%)     ActiveSupport::KeyGenerator#generate_key
+         1  (20.0%)           0   (0.0%)     ActiveSupport::CachingKeyGenerator#generate_key
+         2  (40.0%)           0   (0.0%)     ActionDispatch::Cookies::EncryptedKeyRotatingCookieJar#initialize
+         3  (60.0%)           0   (0.0%)     Class#new
+         2  (40.0%)           0   (0.0%)     ActionDispatch::Cookies::ChainedCookieJars#encrypted
+         2  (40.0%)           0   (0.0%)     ActionDispatch::Cookies::ChainedCookieJars#signed_or_encrypted
+         2  (40.0%)           0   (0.0%)     ActionDispatch::Session::CookieStore#cookie_jar
+         4  (80.0%)           0   (0.0%)     ActionDispatch::Session::CookieStore#get_cookie
+         4  (80.0%)           0   (0.0%)     ActionDispatch::Session::CookieStore#unpacked_cookie_data
+         4  (80.0%)           0   (0.0%)     ActionDispatch::Session::StaleSessionCheck#stale_session_check!
+         4  (80.0%)           0   (0.0%)     Hash#fetch
+         4  (80.0%)           0   (0.0%)     Rack::Request::Env#fetch_header
+         4  (80.0%)           0   (0.0%)     ActionDispatch::Session::CookieStore#extract_session_id
+         4  (80.0%)           0   (0.0%)     ActionDispatch::Request::Session::Options#id
+         4  (80.0%)           0   (0.0%)     ActionDispatch::Request::Session#id
+         4  (80.0%)           0   (0.0%)     Rack::Session::Abstract::Persisted#current_session_id
+         4  (80.0%)           0   (0.0%)     Rack::Session::Abstract::Persisted#session_exists?
+         4  (80.0%)           0   (0.0%)     ActionDispatch::Request::Session#exists?
+         4  (80.0%)           0   (0.0%)     ActionDispatch::Request::Session#load_for_read!
+         4  (80.0%)           0   (0.0%)     ActionDispatch::Request::Session#[]
+         4  (80.0%)           0   (0.0%)     ActionController::RequestForgeryProtection::SessionStore#fetch
+         4  (80.0%)           0   (0.0%)     ActionController::RequestForgeryProtection#real_csrf_token
+         5 (100.0%)           0   (0.0%)     ActionController::RequestForgeryProtection#csrf_token_hmac
+         5 (100.0%)           0   (0.0%)     ActionController::RequestForgeryProtection#global_csrf_token
+
+
+
+==================================
+  Mode: wall(1000)
+  Samples: 5 (50.00% miss rate)
+  GC: 0 (0.00%)
+==================================
+     TOTAL    (pct)     SAMPLES    (pct)     FRAME
+         2  (40.0%)           2  (40.0%)     OpenSSL::KDF.pbkdf2_hmac
+         1  (20.0%)           1  (20.0%)     RubyVM::InstructionSequence.load_from_binary
+         1  (20.0%)           1  (20.0%)     Zeitwerk::ExplicitNamespace.tracepoint_class_callback
+         1  (20.0%)           1  (20.0%)     ActiveRecord::MessagePack::Extensions#install
+         2  (40.0%)           0   (0.0%)     OpenSSL::PKCS5.pbkdf2_hmac
+         2  (40.0%)           0   (0.0%)     ActiveSupport::KeyGenerator#generate_key
+         2  (40.0%)           0   (0.0%)     ActiveSupport::CachingKeyGenerator#generate_key
+         2  (40.0%)           0   (0.0%)     ActionDispatch::Cookies::EncryptedKeyRotatingCookieJar#initialize
+         2  (40.0%)           0   (0.0%)     Class#new
+         2  (40.0%)           0   (0.0%)     ActionDispatch::Cookies::ChainedCookieJars#encrypted
+         2  (40.0%)           0   (0.0%)     ActionDispatch::Cookies::ChainedCookieJars#signed_or_encrypted
+         2  (40.0%)           0   (0.0%)     ActionDispatch::Session::CookieStore#cookie_jar
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Session::CookieStore#get_cookie
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Session::CookieStore#unpacked_cookie_data
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Session::StaleSessionCheck#stale_session_check!
+         5 (100.0%)           0   (0.0%)     Hash#fetch
+         5 (100.0%)           0   (0.0%)     Rack::Request::Env#fetch_header
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Session::CookieStore#extract_session_id
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Request::Session::Options#id
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Request::Session#id
+         5 (100.0%)           0   (0.0%)     Rack::Session::Abstract::Persisted#current_session_id
+         5 (100.0%)           0   (0.0%)     Rack::Session::Abstract::Persisted#session_exists?
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Request::Session#exists?
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Request::Session#load_for_read!
+         5 (100.0%)           0   (0.0%)     ActionDispatch::Request::Session#[]
+         5 (100.0%)           0   (0.0%)     ActionController::RequestForgeryProtection::SessionStore#fetch
+         5 (100.0%)           0   (0.0%)     ActionController::RequestForgeryProtection#real_csrf_token
+         5 (100.0%)           0   (0.0%)     ActionController::RequestForgeryProtection#csrf_token_hmac
+         5 (100.0%)           0   (0.0%)     ActionController::RequestForgeryProtection#global_csrf_token
+         5 (100.0%)           0   (0.0%)     ActionController::RequestForgeryProtection#masked_authenticity_token
+
