@@ -2,24 +2,24 @@
 This is an implementation of a nearly static website using Ruby on Rails, based on the sample_app from the "Ruby on Rails Tutorial" book.
 
 # Description
-・This program, based on the sample_app from the "Ruby on Rails Tutorial" book, creates a nearly static website using Ruby on Rails.
-・It includes CSRF protection mechanisms and measures the response time under varying levels of concurrent access.
-・The response times are recorded using Server A (4GB RAM) and the ab benchmarking tool.
+-This program, based on the sample_app from the "Ruby on Rails Tutorial" book, creates a nearly static website using Ruby on Rails.
+-It includes CSRF protection mechanisms and measures the response time under varying levels of concurrent access.
+-The response times are recorded using Server A (4GB RAM) and the ab benchmarking tool.
 
 # Requirements
-・Rails: 7.1.3.4
-・Ruby: 3.2.3
-・ベンチマークツール: ab(ApacheBench)
+-Rails: 7.1.3.4
+-Ruby: 3.2.3
+-ベンチマークツール: ab(ApacheBench)
 
 # Install/Usage
-プログラムのインストール法や使い方を書く。
+```git clone https://github.com/kwdlab/2503-Kawai.Nanami.git```
 
 # Author
 Nanami Kawai
 
 # References
-・Ruby on Rails
-・Ruby on Rails チュートリアル:プロダクト開発の０→１を学ぼう
+-[Ruby on Rails](https://github.com/rails)
+-[Ruby on Rails チュートリアル:プロダクト開発の０→１を学ぼう](https://railstutorial.jp)
 
 # License
-掲載しているプログラムのライセンスを書く。
+[MIT](https://opensource.org/license/mit/)
