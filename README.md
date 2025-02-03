@@ -23,3 +23,4 @@ This is an implementation of a nearly static website using Ruby on Rails, based 
 
 # License
 [MIT](https://opensource.org/license/mit/)
+
